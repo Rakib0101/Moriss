@@ -1,0 +1,383 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 80%;
+  margin: auto;
+}
+.container::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+/******* Header Section Style strat from here ********/
+
+header{
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(../img/masthead.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+/*** Navigation part ***/
+
+.navigation-area{
+  padding: 20px 0;
+  background: #6745C8;
+  overflow: hidden;
+}
+.navigation-area .logo-area{
+  width: 25%;
+  float: left;
+}
+.logo-area a{
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+}
+.navigation-area .main-nav{
+  width: 75%;
+  overflow: hidden;
+}
+.main-nav ul{
+  float: right;
+}
+.main-nav ul li{
+  float: left;
+  padding: 10px;
+}
+.main-nav ul li a{
+  color: #FFFFFF;
+  padding: 10px;
+  font-size: 18px;
+}
+.main-nav ul .active a{
+  color: #2c3e50;
+}
+.main-nav ul li:hover a{
+  color: #2c3e50;
+}
+
+/*** main content part ***/
+.main-content {
+  overflow: hidden;
+}
+.left-side{
+  width: 40%;
+  float: left;
+  margin-right: 5%;
+}
+.right-side{
+  width: 55%;
+  float: left;
+}
+.right-side h1{
+  margin-top: 150px;
+  font-size: 80px;
+  color: #FFFFFF;
+}
+.right-side p{
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+.download-play{
+  display: flex;
+}
+.download-play .download{
+  padding: 10px 35px;
+  color: #FFFFFF;
+  border-radius: 20px;
+  margin-right: 20px;
+  font-size: 18px;
+  background: #6A42C7;
+  border: 2px solid transparent;
+}
+.download:hover{
+  background: transparent;
+  border: 2px solid #FFFFFF;
+}
+.download-play .play{
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 10px;
+}
+.play:hover{
+  text-decoration: underline;
+}
+.download-play i{
+  font-size: 50px;
+  color: #FFFFFF;
+  display: inline-block;
+}
+/******* Header Section Style End here ********/
+
+/********* Brand list section style from here*********/
+
+.brand{
+  background: #F8F9FA;
+  padding: 100px 0;
+  overflow: hidden;
+}
+.col-1-5{
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+/********* Brand list section style from here*********/
+
+
+/***** Services Section style start from here *****/
+
+.services{
+  padding: 100px 0;
+  overflow: hidden;
+}
+.col-1-3{
+  width: 31.33%;
+  margin: 0 1%;
+  float: left;
+  text-align: center;
+}
+
+/***** Services Section style End here *****/
+
+/***** Features Section style start from here ****/
+
+.features-top{
+  background: #F8F9FA;
+  overflow: hidden;
+  padding: 120px 0;
+}
+
+.features-top .right-side h4{
+  color: #4B4B4C;
+  font-size: 40px;
+}
+.features-top .right-side h6{
+  color: #4B4B4C;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.features-top .right-side p{
+  color: #999390;
+  font-size: 20px;
+}
+
+
+/*** Get More section ***/
+.get-more{
+  padding: 160px 0;
+}
+.get-more .left-side img:first-child{
+  padding-right: 45px;
+}
+.get-more .right-side h2{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.get-more .right-side p{
+  color: #9AA7B9;
+  line-height: 26px;
+}
+/***** Features Section style End here ****/
+
+/**** Colaborate Section Strat from here ****/
+
+.colaborate{
+  background: #F8F9FA;
+  padding: 140px 0;
+  overflow: hidden;
+}
+.heading-side{
+  width: 55%;
+  margin-right: 5%;
+  float: left;
+}
+.image-side{
+  width: 40%;
+  overflow: hidden;
+}
+.top-heading{
+  padding-top: 40px;
+}
+.top-heading h2{
+  color: #4B4B4C;
+  font-size: 32px;
+}
+.top-heading p{
+  color: #9090AA;
+}
+.bottom-heading{
+  padding-top: 40px;
+}
+.col-1-2{
+  width: 48%;
+  margin: 1%;
+  float: left;
+  padding: 20px 0;
+}
+.col-1-2 .icon{
+  width: 20%;
+  margin-right: 5%;
+  float: left;
+}
+.col-1-2 .side-bar{
+  width: 75%;
+  overflow: hidden;
+}
+.icon {
+  color: #6442C7;
+}
+.side-bar p{
+  color: #9090AA;
+}
+.side-bar h3,
+.side-bar p{
+  margin: 0;
+  margin-bottom: 5px;
+}
+/**** Colaborate Section Strat from here ****/
+
+/**** Client Say section ****/
+
+.client-say{
+  padding: 200px 0;
+  text-align: center;
+}
+.slogan{
+  padding-bottom: 80px;
+}
+.slogan h2{
+  font-size: 40px;
+  color: #4B4B4C;
+}
+p{
+  color: #99B2D1;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/*** Contact Section ***/
+
+.contact{
+  overflow: hidden;
+  background: linear-gradient(rgba(98, 67, 187, 0.9),rgba(98, 67, 187, 0.9)), url(../img/banner.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center top;
+  color: #FFFFFF;
+}
+.contact .col-1-3 h2{
+  text-align: center;
+  padding: 80px 0;
+  font-size: 40px; 
+}
+.contact .col-1-3:first-child{
+  width: 28%;
+  margin: 1%;
+}
+.contact .col-1-3:nth-child(2){
+  width: 48%;
+  margin: 1%;
+  padding: 80px 0;
+}
+.contact .col-1-3:last-child{
+  width: 18%;
+  margin: 1%;
+  padding-top: 120px;
+}
+.contact p{
+  text-align: left;
+  color: #FFFFFF;
+}
+.contact a{
+  background: transparent;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 10px 40px;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+}
+.contact a:hover{
+  background: #FFFFFF;
+  color: #000000;
+}
+
+/**** Subscribe ***/
+
+.subscribe{
+  background: #F8F9FA;
+  overflow: hidden;
+  padding: 100px 0;
+  text-align: center;
+}
+.subscribe h2{
+  color: #4B4B4C;
+  font-size: 40px;
+}
+.input{
+  padding-top: 50px ;
+}
+.input input{
+  padding: 10px 60px;
+  border: 2px solid #D1D6DC;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.btn{
+  display: inline;
+  padding: 12px 40px;
+  background: #6442C7;
+  margin-left: -5px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+.btn .fa{
+  color: #FFFFFF;
+}
+.btn span{
+  font-size: 16px;
+  color: #FFFFFF;
+}
+/*** Footer ***/
+
+footer{
+  padding: 80px 0;
+}
+.icon-list{
+  text-align: center;
+  padding-bottom: 40px;
+}
+.icon-list a{
+  color: #C2C2C2;
+}
+.icon-list ul li{
+  display: inline;
+  padding: 0 10px;
+}
+.copyright{
+  text-align: center;
+  font-size: 18px;
+  color: #C2C2C2;
+}
+.copyright a{
+  color: #6442C7
+}
+.copyright a:hover{
+  text-decoration: underline;
+}
